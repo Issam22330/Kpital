@@ -1,55 +1,87 @@
+<div align="center">
+
 # Kpital 📊
 
-Kpital is a comprehensive personal finance and wealth management application for Android. Unlike traditional expense trackers, Kpital bridges the gap between daily spending and long-term investment growth, providing users with a holistic view of their financial health.
+**Your complete financial ecosystem, seamlessly bridging everyday expenses with long-term investments.**
 
-## 🌟 Overview
+<br/>
 
-Managing money is more than just recording expenses; it's about understanding habits and building wealth. Kpital helps users track every cent, manage complex investment portfolios, and receive intelligent insights to make better financial decisions.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Project_Showcase-blue?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android" alt="Platform" />
+</p>
 
-## ✨ Key Features
+⚠️ *Please note: This is a professional showcase project. It is not connected to any real banking institution or live accounts. The source code is maintained privately.*
 
-- **Holistic Dashboard**: A real-time overview of total capital, including savings, cash, and investments.
-- **Transaction Tracking**: Detailed logging of income and expenses with category management and smart search.
-- **Investment Portfolio**: Track various asset types (Stocks, Crypto, ETFs, Real Estate) with ROI calculations and historical snapshots.
-- **Smart Financial Insights**: Automated analysis of spending patterns, budget warnings, and monthly summaries that help identify anomalies and saving opportunities.
-- **Savings Goals**: Set, track, and visualize progress toward specific financial milestones.
-- **Real-time Sync**: Full cloud integration ensures data is always safe and accessible across devices.
+[**🌐 View Live Web Preview**](https://issam22330.github.io/Issam-portfolio.github.io/projects/kpital.html) &nbsp;&nbsp;•&nbsp;&nbsp; [**📱 Download App (APK)**](./app-release.apk)
 
-## 🛠 Tech Stack
+<br/>
+<hr>
+</div>
 
-- **Language**: Java (Android SDK)
-- **Architecture**: MVVM (Model-View-ViewModel) for clean separation of concerns.
-- **Backend**: 
-  - **Firebase Firestore**: Scalable NoSQL database for real-time data synchronization.
-  - **Firebase Auth**: Secure user authentication and session management.
-- **Dependency Injection**: Hilt (Dagger) for robust and testable code.
-- **Jetpack Components**: 
-  - Navigation Component
-  - ViewBinding
-  - ViewModel & LiveData
-- **Data Visualization**: MPAndroidChart for interactive financial trends.
+## 🚀 Why Kpital?
 
-## 🏗 Architecture
+Typical finance apps force you to choose: track your budget *or* monitor your investments. **Kpital unifies both.** 
 
-The project follows modern Android development patterns to ensure scalability and maintainability:
+It is engineered as a comprehensive financial system built for clarity. By securely combining actionable daily expense data with broader portfolio insights, Kpital provides a holistic, real-time snapshot of your net worth—empowering smarter financial decisions in seconds.
 
-- **Domain Layer**: Contains business logic, models, and repository interfaces.
-- **Data Layer**: Handles data source implementations (Firestore, Local Preferences).
-- **UI Layer**: Fragment-based UI using ViewBinding and LiveData to reactively update the interface.
+<br/>
 
-## 💎 Why Kpital?
+## ✨ Core Features
 
-Most apps focus either on budgeting or on investing. Kpital is valuable because it integrates both. It treats a user's finances as a single ecosystem, allowing them to see how their morning coffee habit directly impacts their long-term investment goals. The inclusion of "Smart Insights" moves the app from a passive ledger to an active financial consultant.
+* **Smart Expense Tracking** 💰
+  Capture every transaction effortlessly. Instantly categorize and monitor daily spending habits to stay on budget without the friction.
+* **Intelligent Wealth Management** 📈
+  Move beyond mere savings. Keep track of diverse investments and monitor portfolio growth right next to your checking account.
+* **Actionable Insights** 💡
+  Turn raw data into financial confidence. Visual charts and contextual summaries help you understand where your money flows and grows entirely on autopilot.
+* **Lightning-Fast Synchronization** ⚡
+  Experience fluid, instantaneous updates across all your financial inputs without waiting or manual refreshing.
 
----
+<br/>
 
-## 🚀 Getting Started
+## 🏗️ Project Highlights
 
-1. Clone the repository.
-2. Register your app in the [Firebase Console](https://console.firebase.google.com/).
-3. Download the `google-services.json` and place it in the `/app` directory.
-4. Build and run using Android Studio.
+Behind the seamless UI lies a robust and modern technical foundation, engineered for scale and maintainability:
 
-## 📄 License
+- **Clean MVVM Architecture:** Employs industry-standard Model-View-ViewModel patterns to ensure complete separation of concerns and testability.
+- **Real-Time Database (Firestore):** Leverages Firebase Firestore to deliver instantaneous data synchronization with a highly scalable, flexible NoSQL data model.
+- **Unified Domain Models:** A robust data layer designed to resolve complex relationships between localized daily spending and dynamic market investments.
+- **Premium UX/UI Implementation:** Features a detail-oriented, responsive design language that prioritizes accessibility and visual hierarchy.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<br/>
+<hr>
+
+## 📸 Application Interface
+
+<br/>
+
+<p align="center">
+  <b>Dashboard</b><br>
+  <br>
+  <img src="./screenshots/dashboard.jpeg" width="250" alt="Dashboard Screen"/>
+</p>
+
+<br/>
+
+<p align="center">
+  <b>Transactions</b><br>
+  <br>
+  <img src="./screenshots/transactions.jpeg" width="250" alt="Transactions Screen"/>
+</p>
+
+<br/>
+
+<p align="center">
+  <b>Investments</b><br>
+  <br>
+  <img src="./screenshots/investments.jpeg" width="250" alt="Investments Screen"/>
+</p>
+
+<br/>
+<hr>
+<br/>
+
+<div align="center">
+  <i>The source code for Kpital is maintained privately. For inquiries or collaboration, please reach out via GitHub or through the portfolio website.</i>
+</div>
